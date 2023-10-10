@@ -1,0 +1,284 @@
+[
+    {
+        "command": "weather",
+        "make": "weather",
+        "parameters": "'https://api.openweathermap.org/data/2.5/weather'",
+        "say": "",
+        "triggers": [
+            "какая погода",
+            "скажи погоду"
+        ]
+    },
+    {
+        "command": "off_assist",
+        "make": "of_bot",
+        "parameters": "",
+        "say": [
+            "До свидания",
+            "Пока"
+        ],
+        "triggers": [
+            "выключайся",
+            "отключайся",
+            "пока"
+        ]
+    },
+    {
+        "command": "bot_is_here",
+        "make": "passive",
+        "parameters": "",
+        "say": [
+            "Я тут ",
+            "Я здесь ",
+            "Я с вами "
+        ],
+        "triggers": [
+            "ты тут",
+            "ты здесь"
+        ]
+    },
+    {
+        "command": "genshin",
+        "make": "open_file",
+        "parameters": "C:\\Program Files\\Genshin Impact\\launcher.exe",
+        "say": "",
+        "triggers": [
+            "игра один",
+            "открой игру один"
+        ]
+    },
+    {
+        "command": "honkai",
+        "make": "open_file",
+        "parameters": "C:\\Program Files\\Star Rail\\launcher.exe",
+        "say": "",
+        "triggers": [
+            "игра два",
+            "открой игру два"
+        ]
+    },
+    {
+        "command": "browser",
+        "make": "open_file",
+        "parameters": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "say": "",
+        "triggers": [
+            "открой браузер",
+            "браузер"
+        ]
+    },
+    {
+        "command": "spotify",
+        "make": "open_file",
+        "parameters": "C:\\Users\\Home\\AppData\\Roaming\\Spotify\\Spotify.exe",
+        "say": "",
+        "triggers": [
+            "открой спотик",
+            "музыка"
+        ]
+    },
+    {
+        "command": "discord",
+        "make": "open_file",
+        "parameters": "C:\\Users\\Home\\AppData\\Local\\Discord\\Discord.exe",
+        "say": "",
+        "triggers": [
+            "общение",
+            "общения",
+            "дискорд"
+        ]
+    },
+    {
+        "command": "openai_on",
+        "make": "open_gpt",
+        "parameters": "1",
+        "say": "",
+        "triggers": [
+            "включи аи",
+            "включи ии"
+        ]
+    },
+    {
+        "command": "openai_off",
+        "make": "open_gpt",
+        "parameters": "0",
+        "say": "",
+        "triggers": [
+            "выключи аи",
+            "выключи ии"
+        ]
+    },
+    {
+        "command": "telegram",
+        "make": "open_url",
+        "parameters": "https://web.telegram.org/k",
+        "say": "",
+        "triggers": [
+            "открой т г",
+            "открой телеграмм"
+        ]
+    },
+    {
+        "command": "vkontakte",
+        "make": "open_url",
+        "parameters": "https://vk.com/feed",
+        "say": "",
+        "triggers": [
+            "открой в к",
+            "открой вконтакте"
+        ]
+    },
+    {
+        "command": "youtube",
+        "make": "open_url",
+        "parameters": "https://www.youtube.com/",
+        "say": "",
+        "triggers": [
+            "открой ю т",
+            "открой ютуб"
+        ]
+    },
+    {
+        "command": "yandex_search",
+        "make": "open_url",
+        "parameters": "https://yandex.ru/search/?text=",
+        "say": "",
+        "triggers": [
+            "найди",
+            "поищи"
+        ]
+    },
+    {
+        "command": "bot_hello",
+        "make": "passive",
+        "parameters": "",
+        "say": [
+            "Добрый день",
+            "Здравствуйте",
+            "Привет"
+        ],
+        "triggers": [
+            "привет",
+            "ку"
+        ]
+    },
+    {
+        "command": "youtube_search",
+        "make": "open_url",
+        "parameters": "https://www.youtube.com/results?search_query=",
+        "say": "",
+        "triggers": [
+            "поиск видео",
+            "видео"
+        ]
+    },
+    {
+        "command": "full_screen",
+        "make": "hotkey",
+        "parameters": [
+            "f"
+        ],
+        "say": "",
+        "triggers": [
+            "на весь экран",
+            "на полный экран",
+            "уменьши экран",
+            "сверни экран"
+        ]
+    },
+    {
+        "command": "video_volume",
+        "make": "hotkey",
+        "parameters": [
+            "m"
+        ],
+        "say": "",
+        "triggers": [
+            "отключи звук",
+            "выключи звук",
+            "включи звук"
+        ]
+    },
+    {
+        "command": "back_browser",
+        "make": "hotkey",
+        "parameters": [
+            "alt",
+            "left"
+        ],
+        "say": "",
+        "triggers": [
+            "сайт назад"
+        ]
+    },
+    {
+        "command": "forward_browser",
+        "make": "hotkey",
+        "parameters": [
+            "alt",
+            "right"
+        ],
+        "say": "",
+        "triggers": [
+            "сайт вперёд"
+        ]
+    },
+    {
+        "command": "pause_video",
+        "make": "hotkey",
+        "parameters": [
+            "Space"
+        ],
+        "say": "",
+        "triggers": [
+            "пауза",
+            "запуск"
+        ]
+    },
+    {
+        "command": "volume_video_up",
+        "make": "hotkey",
+        "parameters": [
+            "up"
+        ],
+        "say": "",
+        "triggers": [
+            "увеличь громкость",
+            "увеличь звук"
+        ]
+    },
+    {
+        "command": "volume_video_down",
+        "make": "hotkey",
+        "parameters": [
+            "down"
+        ],
+        "say": "",
+        "triggers": [
+            "убавь громкость",
+            "убавь звук"
+        ]
+    },
+    {
+        "command": "test_cmnd",
+        "make": "passive",
+        "parameters": "",
+        "say": [
+            "Добрый вечер"
+        ],
+        "triggers": [
+            "добрый день"
+        ]
+    },
+    {
+        "command": "open_provodnik",
+        "make": "open_file",
+        "parameters": "C:\\Users\\Home\\Desktop\\python",
+        "say": [
+            ""
+        ],
+        "triggers": [
+            "открой проводник"
+        ]
+    }
+]
