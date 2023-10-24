@@ -1,5 +1,5 @@
-WEATHER_API_KEY: 265b5e0f8b9bc036fbfa0a327fc169b1
-OPENAI_API_KEY: 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
+WEATHER_API_KEY: weaiter-api-token
+OPENAI_API_KEY: open-ai-token
 ASSIST_NAME: робот,роби,бот,робота,роботы
 SPEAKER_NAME: baya
 CITY_WEATHER: Пермь
